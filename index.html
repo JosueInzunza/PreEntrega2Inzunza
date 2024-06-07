@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Funkoshop</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen'></i>
+            <span class="logo navLogo"><a href="#">Funkoshop</a></span>
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Funkoshop</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+                <ul class="nav-links">
+                    <li><button type="button" class="filter-btn" id="all">all</button></li>
+                    <li><button type="button" class="filter-btn" id="disney">disney</button></li>
+                    <li><button type="button" class="filter-btn" id="marvel">marvel</button></li>
+                    <li><button type="button" class="filter-btn" id="anime">anime</button></li>
+                </ul>
+            </div>
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+                <div class="searchBox">
+                <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                </div>
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="product-container">
+                
+                <div class="product disney all" data-name="disney1">
+                    <img src="assets/disney1.jpg" alt="solivan funko">
+                    <h2>Solivan</h2>
+                    <h3>Disney collection</h3>
+                    <div class="price">$500</div>
+                </div>
+
+                <div class="product disney all" data-name="disney2">
+                    <img src="assets/disney1.jpg" alt="solivan funko">
+                    <h2>Solivan</h2>
+                    <h3>Disney collection</h3>
+                    <div class="price">$500</div>
+                </div>
+
+                <div class="product disney all" data-name="disney3">
+                    <img src="assets/disney1.jpg" alt="solivan funko">
+                    <h2>Solivan</h2>
+                    <h3>Disney collection</h3>
+                    <div class="price">$500</div>
+                </div>
+
+                <div class="product marvel all" data-name="marvel1">
+                    <img src="assets/marvel1.jpg" alt="nick fury funko">
+                    <h2>Nick fury</h2>
+                    <h3>Marvel collection</h3>
+                    <div class="price">$500</div>
+                </div>
+
+                <div class="product marvel all" data-name="marvel2">
+                    <img src="assets/marvel1.jpg" alt="nick fury funko">
+                    <h2>Nick fury</h2>
+                    <h3>Marvel collection</h3>
+                    <div class="price">$500</div>
+                </div>
+
+                <div class="product marvel all" data-name="marvel3">
+                    <img src="assets/marvel1.jpg" alt="nick fury funko">
+                    <h2>Nick fury</h2>
+                    <h3>Marvel collection</h3>
+                    <div class="price">$500</div>
+                </div>
+
+                <div class="product anime all" data-name="anime1">
+                    <img src="assets/anime1.jpg" alt="Itadori funko">
+                    <h2>Itadori</h2>
+                    <h3>Anime collection</h3>
+                    <div class="price">$500</div>
+                </div>
+
+                <div class="product anime all" data-name="anime2">
+                    <img src="assets/anime1.jpg" alt="Itadori funko">
+                    <h2>Itadori</h2>
+                    <h3>Anime collection</h3>
+                    <div class="price">$500</div>
+                </div>
+
+                <div class="product anime all" data-name="anime3">
+                    <img src="assets/anime1.jpg" alt="Itadori funko">
+                    <h2>Itadori</h2>
+                    <h3>Anime collection</h3>
+                    <div class="price">$500</div>
+                </div>
+            </div>
+
+            <div class="product-preview">
+
+                <div class="preview" data-target="disney1">
+                    <i class='bx bx-x previewClose'></i>
+                    <img src="assets/disney1.jpg" alt="solivan funko">
+                    <h2>Solivan</h2>
+                    <h3>Disney collection</h3>
+                    <div class="price">$500</div>
+                    <div class="btn">
+                        <a href="#" class="see-btn">See more</a>
+                        <a href="#" class="add-btn">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="preview" data-target="disney2">
+                    <i class='bx bx-x previewClose'></i>
+                    <img src="assets/disney1.jpg" alt="solivan funko">
+                    <h2>Solivan</h2>
+                    <h3>Disney collection</h3>
+                    <div class="price">$500</div>
+                    <div class="btn">
+                        <a href="#" class="see-btn">See more</a>
+                        <a href="#" class="add-btn">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="preview" data-target="disney3">
+                    <i class='bx bx-x previewClose'></i>
+                    <img src="assets/disney1.jpg" alt="solivan funko">
+                    <h2>Solivan</h2>
+                    <h3>Disney collection</h3>
+                    <div class="price">$500</div>
+                    <div class="btn">
+                        <a href="#" class="see-btn">See more</a>
+                        <a href="#" class="add-btn">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="preview" data-target="marvel1">
+                    <i class='bx bx-x previewClose'></i>
+                    <img src="assets/disney1.jpg" alt="nick fury funko">
+                    <h2>Nick fury</h2>
+                    <h3>Marvel collection</h3>
+                    <div class="price">$500</div>
+                    <div class="btn">
+                        <a href="#" class="see-btn">See more</a>
+                        <a href="#" class="add-btn">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="preview" data-target="marvel2">
+                    <i class='bx bx-x previewClose'></i>
+                    <img src="assets/disney1.jpg" alt="nick fury funko">
+                    <h2>Nick fury</h2>
+                    <h3>Marvel collection</h3>
+                    <div class="price">$500</div>
+                    <div class="btn">
+                        <a href="#" class="see-btn">See more</a>
+                        <a href="#" class="add-btn">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="preview" data-target="marvel3">
+                    <i class='bx bx-x previewClose'></i>
+                    <img src="assets/disney1.jpg" alt="nick fury funko">
+                    <h2>Nick fury</h2>
+                    <h3>Marvel collection</h3>
+                    <div class="price">$500</div>
+                    <div class="btn">
+                        <a href="#" class="see-btn">See more</a>
+                        <a href="#" class="add-btn">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="preview" data-target="anime1">
+                    <i class='bx bx-x previewClose'></i>
+                    <img src="assets/disney1.jpg" alt="Itadori funko">
+                    <h2>Itadori</h2>
+                    <h3>Anime collection</h3>
+                    <div class="price">$500</div>
+                    <div class="btn">
+                        <a href="#" class="see-btn">See more</a>
+                        <a href="#" class="add-btn">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="preview" data-target="anime2">
+                    <i class='bx bx-x previewClose'></i>
+                    <img src="assets/disney1.jpg" alt="Itadori funko">
+                    <h2>Itadori</h2>
+                    <h3>Anime collection</h3>
+                    <div class="price">$500</div>
+                    <div class="btn">
+                        <a href="#" class="see-btn">See more</a>
+                        <a href="#" class="add-btn">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="preview" data-target="anime3">
+                    <i class='bx bx-x previewClose'></i>
+                    <img src="assets/disney1.jpg" alt="Itadori funko">
+                    <h2>Itadori</h2>
+                    <h3>Anime collection</h3>
+                    <div class="price">$500</div>
+                    <div class="btn">
+                        <a href="#" class="see-btn">See more</a>
+                        <a href="#" class="add-btn">Add to cart</a>
+                    </div>
+                </div>
+
+            </div>
+
+        
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
