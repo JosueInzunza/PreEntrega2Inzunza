@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Solivan",
+        "price": 500,
+        "image": "assets/disney1.jpg",
+        "class": "product all disney",
+        "collection": "Disney collection"
+    },
+    {
+        "id": 2,
+        "name": "Solivan",
+        "price": 500,
+        "image": "assets/disney1.jpg",
+        "class": "product all disney",
+        "collection": "Disney collection"
+    },
+    {
+        "id": 3,
+        "name": "Solivan",
+        "price": 500,
+        "image": "assets/disney1.jpg",
+        "class": "product all disney",
+        "collection": "Disney collection"
+    },
+    {
+        "id": 4,
+        "name": "Itadori",
+        "price": 500,
+        "image": "assets/anime1.jpg",
+        "class": "product all anime",
+        "collection": "Anime collection"
+    },
+    {
+        "id": 5,
+        "name": "Itadori",
+        "price": 500,
+        "image": "assets/anime1.jpg",
+        "class": "product all anime",
+        "collection": "Anime collection"
+    },
+    {
+        "id": 6,
+        "name": "Itadori",
+        "price": 500,
+        "image": "assets/anime1.jpg",
+        "class": "product all anime",
+        "collection": "Anime collection"
+    },
+    {
+        "id": 7,
+        "name": "Nick Fury",
+        "price": 500,
+        "image": "assets/marvel1.jpg",
+        "class": "product all marvel",
+        "collection": "Marvel collection"
+    },
+    {
+        "id": 8,
+        "name": "Nick Fury",
+        "price": 500,
+        "image": "assets/marvel1.jpg",
+        "class": "product all marvel",
+        "collection": "Marvel collection"
+    },
+    {
+        "id": 9,
+        "name": "Nick Fury",
+        "price": 500,
+        "image": "assets/marvel1.jpg",
+        "class": "product all marvel",
+        "collection": "Marvel collection"
+    }
+]
